@@ -1,0 +1,23 @@
+{
+  "name": "8ver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --fix",
+    "format": "prettier --write .",
+    "pretty": "yarn format && yarn lint"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "eslint": "8.57.0"
+  },
+  "devDependencies": {
+    "@siberiacancode/prettier": "^1.1.1",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-siberiacancode": "file:./lib",
+    "eslint-config-siberiacancode": "file:./lib/configs"
+  }
+}

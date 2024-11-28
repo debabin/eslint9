@@ -1,0 +1,17 @@
+{
+  "extends": ["eslint:recommended"],
+  "overrides": [
+    {
+      "files": ["*.ts"],
+      "rules": {
+        "no-unused-vars": "off"
+      }
+    },
+    {
+      "files": ["*.js"],
+      "rules": {
+        "no-unused-vars": "warn"
+      }
+    }
+  ]
+}
